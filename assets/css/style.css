@@ -3,3 +3,122 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header {
+    display: flex;
+    background-color: rebeccapurple;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    flex-wrap: flex;
+    top: 0;
+    z-index: 9999;
+    padding: 10px 10px;
+}
+
+header h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 0 0 5px black;
+    font-size: 40px;
+    background-color: dimgray;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav {
+    margin: 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 5px 10px;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    background: dimgray;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+footer {
+    background: rebeccapurple;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}    
+
+section {
+    padding: 25px;
+}
+
+.bio {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.bio h2 {
+    font-size: 1.75vw;
+    margin: 0;
+}
+
+.bio img {
+    max-height: 300px;
+}
+
+.bio p {
+    padding: 0px 10px 0px 0px;
+}
+
+.projects {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.main-work img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    line-height: 1.5;
+}
+
+.flex-row {
+    display: flex;
+}
